@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio {
+    background-color: rgba(146, 141, 141, 0.288);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: expanded font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 2px
+}
+
+
+p {
+    color: rgba(105, 107, 109, 0.764);
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    border: 5px solid black;
+    padding: 3px 20px;
+    text-align: center;
+    height: 60px;
+    font-family: 'Khand', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: rgb(93, 91, 91);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+main {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url("img/playa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Hind Siliguri', sans-serif;
+    height: 60px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+h3 {
+    color: rgb(145, 143, 143);
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+    font-weight: lighter;
+    height: 60px;
+    
+}
+
+span {
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    font-weight: bold;
+}
